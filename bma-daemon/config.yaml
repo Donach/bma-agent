@@ -1,0 +1,17 @@
+name: "BMA Daemon"
+version: "1.0.0"
+slug: "bma-daemon"
+description: "BMA Daemon for Home Assistant"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+startup: application
+boot: auto
+ports:
+  8080/tcp: 8080
+options: {}
+schema: {}
+image: "Donach/bma-daemon-{arch}" 
