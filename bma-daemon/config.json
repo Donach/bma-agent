@@ -1,0 +1,27 @@
+{
+    "name": "BMA Daemon",
+    "slug": "bma_daemon",
+    "version": "4.0.0",
+    "arch": [
+        "amd64",
+        "aarch64"
+    ],
+    "options": {
+        "agent_id": "00000000-0000-0000-0000-000000000000",
+        "secret_key": "00000000-0000-0000-0000-000000000000"
+    },
+    "schema": {
+        "agent_id": [
+            "string",
+            {
+                "pattern": "^[0-9a-fA-F\\-]{36}$"
+            }
+        ],
+        "secret_key": [
+            "string",
+            {
+                "pattern": "^[0-9a-fA-F\\-]{36}$"
+            }
+        ]
+    }
+}
