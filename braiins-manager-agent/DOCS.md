@@ -20,7 +20,7 @@ Braiins Manager offers a wide range of features for mining operations:
 ## Installation
 
 1. Navigate to the Home Assistant Add-on Store
-2. Add the repository URL: `https://github.com/Donach/bma-agent`
+2. Add the repository URL: `https://github.com/Donach/ha-addons`
 3. Find the "Braiins Manager Agent" add-on and click install
 4. Configure the add-on as described below
 5. Start the add-on
