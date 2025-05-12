@@ -44,6 +44,10 @@ This is the unique identifier for your Braiins Manager Agent. You can obtain thi
 
 This is the authentication key for your Braiins Manager Agent. You can obtain this from your Braiins Manager account.
 
+### Option: `logging.level` (optional)
+
+You can use "debug" to enable verbose logging, default is "info".
+
 ## How to use
 
 1. Sign up for a Braiins Manager account at [braiins.com/manager](https://braiins.com/manager)

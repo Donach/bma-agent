@@ -7,4 +7,6 @@ if [ ! -f /usr/bin/bma-daemon ]; then
     exit 1
 fi
 
-exec /usr/bin/bma-daemon 
+# Get the logging level from config or use "info" as default if missing
+LOG_LEVEL=$(bashio::config 'logging.level' 'info')
+exec RUST_LOG="${LOG_LEVEL}" /usr/bin/bma-daemon

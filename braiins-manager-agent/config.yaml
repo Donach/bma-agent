@@ -14,7 +14,11 @@ host_network: true
 options:
   agent_id: ""
   secret_key: ""
+  logging:
+    level: "info"
 schema:
   agent_id: str
   secret_key: str
+  logging:
+    level: str
 image: "ghcr.io/donach/braiins-manager-agent-{arch}"
