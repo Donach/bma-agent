@@ -15,7 +15,7 @@ Adding this add-ons repository to your Home Assistant instance is pretty straigh
 Use the following URL to add this repository:
 
 ```txt
-https://github.com/Donach/bma-agent
+https://github.com/Donach/ha-addons
 ```
 
 ## Features
