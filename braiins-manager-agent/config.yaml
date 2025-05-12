@@ -3,7 +3,7 @@ name: "Braiins Manager Agent"
 version: "4.1.1"
 slug: "braiins-manager-agent"
 description: "Remotely manage and monitor your mining hardware through the Braiins Manager platform"
-url: https://braiins.com/manager
+url: https://github.com/Donach/ha-addons
 arch:
   - aarch64
   - amd64
