@@ -1,0 +1,24 @@
+---
+name: "Braiins Toolbox"
+version: "25.03.0"
+slug: "braiins-toolbox"
+description: "Braiins Toolbox - Bitcoin mining farm management software with web interface"
+url: "https://github.com/Donach/ha-addons/tree/main/braiins-toolbox"
+arch:
+  - aarch64
+  - amd64
+  - armv7
+startup: application
+boot: manual
+init: false
+host_network: true
+ports:
+  8888/tcp: 8888
+ports_description:
+  8888/tcp: "Braiins Toolbox Web Interface"
+options:
+  log_level: "info"
+  auto_update: true
+schema:
+  log_level: "list(debug|info|warning|error)"
+  auto_update: "bool" 

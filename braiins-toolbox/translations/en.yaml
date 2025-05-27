@@ -1,0 +1,8 @@
+---
+configuration:
+  log_level:
+    name: Log Level
+    description: Controls the level of log output from the application
+  auto_update:
+    name: Auto Update
+    description: Automatically download the latest Braiins Toolbox binary on startup 
