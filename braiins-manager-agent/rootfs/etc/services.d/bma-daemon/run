@@ -9,4 +9,5 @@ fi
 
 # Get the logging level from config or use "info" as default if missing
 LOG_LEVEL=$(bashio::config 'logging.level' 'info')
-exec RUST_LOG="${LOG_LEVEL}" /usr/bin/bma-daemon
+export RUST_LOG="${LOG_LEVEL}"
+exec /usr/bin/bma-daemon

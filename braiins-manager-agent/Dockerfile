@@ -13,8 +13,8 @@ ARG BUILD_VERSION
 
 # Install requirements for add-on
 RUN apk add --no-cache \
-    coreutils=9.5-r2 \
-    wget=1.25.0-r0
+    coreutils \
+    wget
 
 # Copy root filesystem
 COPY rootfs /
